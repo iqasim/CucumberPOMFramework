@@ -19,7 +19,7 @@ public class ServiceHooks {
 	@After
 	public void endTest()
 	{
-		testBase.driver.quit();
+		TestBase.driver.quit();
 	}
 
 }
