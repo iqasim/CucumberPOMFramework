@@ -12,7 +12,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 @CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"}, 
 plugin={"pretty", "html:target/cucumber-reports/cucumber-pretty", "json:target/cucumber-reports/CucumberTestReport.json"
 		+ "rerun:target/cucumber-reports/rerun.txt"})
-public class TestRunner {
+public class testrunner {
 	
 	private TestNGCucumberRunner testNGCucumberRunner;
 	
