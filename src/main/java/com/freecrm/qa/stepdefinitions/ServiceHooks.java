@@ -1,4 +1,4 @@
-package com.freecrm.qa.testrunner;
+package com.freecrm.qa.stepdefinitions;
 
 import com.freecrm.qa.base.TestBase;
 
