@@ -9,9 +9,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"}, 
-plugin={"pretty", "html:target/cucumber-reports/cucumber-pretty", "json:target/cucumber-reports/CucumberTestReport.json"
-		+ "rerun:target/cucumber-reports/rerun.txt"})
+@CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"}) 
+/*plugin={"pretty", "html:test-output/target/cucumber-reports/cucumber-pretty", "json:test-output/target/cucumber-reports/CucumberTestReport.json"
+		+ "rerun:test-output/target/cucumber-reports/rerun.txt"})*/
+
 public class testrunner {
 	
 	private TestNGCucumberRunner testNGCucumberRunner;
