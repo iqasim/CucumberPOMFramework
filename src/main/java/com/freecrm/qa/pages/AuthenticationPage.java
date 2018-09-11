@@ -34,7 +34,7 @@ public class AuthenticationPage extends TestBase {
 	public RegistrationPage clickOncreateAccountBtn()
 	{
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("arguments[0].scrollIntoView();", createAccountBtn);
+		jse.executeScript("arguments[0].scrollIntoView();", emailAddress);
 		
 		createAccountBtn.click();
 		return new RegistrationPage();

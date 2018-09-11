@@ -67,9 +67,9 @@ public class RegistrationPage extends TestBase
 	public void selectGender(String Gender)
 	{
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("argument[0].scrollIntoView()", headingNewsLetter);	
+		jse.executeScript("arguments[0].scrollIntoView()", headingCreateAnAccount);	
 				
-		if (Gender.equalsIgnoreCase("Mr."))
+		if (Gender.equals("Mr."))
 		{
 			Male.click();
 		}else
