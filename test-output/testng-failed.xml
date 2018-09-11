@@ -6,4 +6,15 @@
       <class name="com.freecrm.qa.testrunner.testrunner"/>
     </classes>
   </test> <!-- Regression Test -->
+  <test name="Regression Test(failed)">
+    <classes>
+      <class name="com.freecrm.qa.testrunner.testrunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testrunner.testrunner -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->
