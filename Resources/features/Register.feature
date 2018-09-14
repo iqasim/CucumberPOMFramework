@@ -49,5 +49,5 @@ Feature: User Registration
 
     Examples: 
       | Email_id              | Gender | Firstname | Lastname | Password | Day_of_DOB | Month_of_DOB | Year_of_DOB | Address | City  | State   | Zip_Postal_Code | Mobile_Number |
-      | qasimran123@gmail.com | Mr.    | Abz       | Abz      | password |          7 | March        |        1980 | 68 AD   | Noida | Alaska  |           12346 |    9990017896 |
-      | qasimran114@gmail.com | Mrs.   | Sab       | Sab      | password |         16 | May          |        1984 | R196    | Delhi | Arizona |           65478 |    9990016789 |
+      | qasimran123@gmail.com | Mr.    | Abz       | Abz      | password |          7 |            3 |        1980 | 68 AD   | Noida | Alaska  |           00000 |    9990017896 |
+      | qasimran114@gmail.com | Mrs.   | Sab       | Sab      | password |         16 |            5 |        1984 | R196    | Delhi | Arizona |           85001 |    9990016789 |

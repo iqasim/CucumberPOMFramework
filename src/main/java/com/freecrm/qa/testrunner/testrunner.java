@@ -16,7 +16,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"},
 plugin={"pretty", "html:test-output/target/cucumber-reports/cucumber-pretty", "json:json-output/target/cucumber-reports/CucumberTestReport.json",
-		"junit:junit_xml/cucumber-reports/cucumber.xml"}, dryRun = true, monochrome = true, strict = true)
+		"junit:junit_xml/cucumber-reports/cucumber.xml"}, dryRun = false, monochrome = true, strict = true)
 
 public class testrunner {
 	

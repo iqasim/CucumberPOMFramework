@@ -115,13 +115,13 @@ public class RegistrationPage extends TestBase
 	public void selectBirthMonth(String Month_of_DOB)
 	{
 		select = new Select(driver.findElement(By.xpath("//select[@id='months']")));
-		select.selectByVisibleText(Month_of_DOB);
+		select.selectByValue(Month_of_DOB);
 	}
 	
 	public void selectBirthYear(String Year_of_DOB)
 	{
 		select = new Select(driver.findElement(By.xpath("//select[@id='years']")));
-		select.selectByVisibleText(Year_of_DOB);
+		select.selectByValue(Year_of_DOB);
 	}
 	
 	public void enterAddress(String Address)
@@ -142,7 +142,7 @@ public class RegistrationPage extends TestBase
 	public void selectState(String State)
 	{
 		select = new Select(driver.findElement(By.xpath("//select[@id='id_state']")));
-		select.deselectByVisibleText(State);
+		select.selectByVisibleText(State);
 	}
 	
 	public void enterZipCode(String Zip_Postal_Code)

@@ -223,12 +223,12 @@ formatter.examples({
         "Abz",
         "password",
         "7",
-        "March",
+        "3",
         "1980",
         "68 AD",
         "Noida",
         "Alaska",
-        "12346",
+        "00000",
         "9990017896"
       ],
       "line": 52,
@@ -242,12 +242,12 @@ formatter.examples({
         "Sab",
         "password",
         "16",
-        "May",
+        "5",
         "1984",
         "R196",
         "Delhi",
         "Arizona",
-        "65478",
+        "85001",
         "9990016789"
       ],
       "line": 53,
@@ -255,6 +255,10 @@ formatter.examples({
     }
   ],
   "keyword": "Examples"
+});
+formatter.before({
+  "duration": 5467389119,
+  "status": "passed"
 });
 formatter.background({
   "line": 25,
@@ -283,13 +287,15 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 13283361789,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 40190523,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 52,
@@ -374,7 +380,7 @@ formatter.step({
 });
 formatter.step({
   "line": 40,
-  "name": "I select_month \"March\"",
+  "name": "I select_month \"3\"",
   "matchedColumns": [
     6
   ],
@@ -414,7 +420,7 @@ formatter.step({
 });
 formatter.step({
   "line": 45,
-  "name": "I enter_zip \"12346\"",
+  "name": "I enter_zip \"00000\"",
   "matchedColumns": [
     11
   ],
@@ -442,7 +448,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_SignIn_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4066894230,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -454,19 +461,22 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.enter_for_the_signup(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 190796787,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.click_on_create_an_account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1588004171,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_sould_see_application_registration_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 54005105,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -478,7 +488,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113442758,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -490,7 +501,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_firstname(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 152286117,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -502,7 +514,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_lastname(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 121367806,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -514,7 +527,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 227481976,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -526,19 +540,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_day(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113391891,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "March",
+      "val": "3",
       "offset": 16
     }
   ],
   "location": "RegistrationPageStepDefinition.i_select_month(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 100945393,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -550,7 +566,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_year(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89592544,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -562,7 +579,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 206438901,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -574,7 +592,8 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_city(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 142697215,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -586,19 +605,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_state(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 92676171,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "12346",
+      "val": "00000",
       "offset": 13
     }
   ],
   "location": "RegistrationPageStepDefinition.i_enter_zip(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 69718187,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -610,386 +631,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_mobile(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 163318585,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_Register_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1312124802,
+  "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_shoould_be_login_and_will_see_Sign_out()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.background({
-  "line": 25,
-  "name": "User navigates to Application URL",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 26,
-  "name": "I am on the Pre-Login page URL \"http://automationpractice.com/index.php\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 27,
-  "name": "I should see site logo",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "http://automationpractice.com/index.php",
-      "offset": 32
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.scenario({
-  "line": 53,
-  "name": "Register to the site",
-  "description": "",
-  "id": "user-registration;register-to-the-site;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 19,
-      "name": "@Login"
-    },
-    {
-      "line": 29,
-      "name": "@sanity"
-    }
-  ]
-});
-formatter.step({
-  "line": 31,
-  "name": "I click on SignIn button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 32,
-  "name": "Enter \"qasimran114@gmail.com\" for the signup",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 33,
-  "name": "Click on create an account button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 34,
-  "name": "I sould see application registration page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 35,
-  "name": "I select \"Mrs.\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "I enter_firstname \"Sab\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
-  "name": "I enter_lastname \"Sab\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 38,
-  "name": "I enter_password \"password\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 39,
-  "name": "I select_day \"16\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 40,
-  "name": "I select_month \"May\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 41,
-  "name": "I select_year \"1984\"",
-  "matchedColumns": [
-    7
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 42,
-  "name": "I enter_address \"R196\"",
-  "matchedColumns": [
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 43,
-  "name": "I enter_city \"Delhi\"",
-  "matchedColumns": [
-    9
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 44,
-  "name": "I select_state \"Arizona\"",
-  "matchedColumns": [
-    10
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 45,
-  "name": "I enter_zip \"65478\"",
-  "matchedColumns": [
-    11
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 46,
-  "name": "I enter_mobile \"9990016789\"",
-  "matchedColumns": [
-    12
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 47,
-  "name": "I click on Register button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 48,
-  "name": "I shoould be login and will see Sign out",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "RegistrationPageStepDefinition.i_click_on_SignIn_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "qasimran114@gmail.com",
-      "offset": 7
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.enter_for_the_signup(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "RegistrationPageStepDefinition.click_on_create_an_account_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "RegistrationPageStepDefinition.i_sould_see_application_registration_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Mrs.",
-      "offset": 10
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_select(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sab",
-      "offset": 19
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_firstname(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Sab",
-      "offset": 18
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_lastname(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "password",
-      "offset": 18
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_password(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "16",
-      "offset": 14
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_select_day(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "May",
-      "offset": 16
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_select_month(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "1984",
-      "offset": 15
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_select_year(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "R196",
-      "offset": 17
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_address(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Delhi",
-      "offset": 14
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_city(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Arizona",
-      "offset": 16
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_select_state(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "65478",
-      "offset": 13
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_zip(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "9990016789",
-      "offset": 16
-    }
-  ],
-  "location": "RegistrationPageStepDefinition.i_enter_mobile(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "RegistrationPageStepDefinition.i_click_on_Register_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "RegistrationPageStepDefinition.i_shoould_be_login_and_will_see_Sign_out()"
-});
-formatter.result({
-  "status": "skipped"
-});
+  "duration": 4324824405,
+  "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat com.freecrm.qa.pages.PostLoginPage.validateSignOutLink(PostLoginPage.java:22)\r\n\tat com.freecrm.qa.stepdefinitions.RegistrationPageStepDefinition.i_shoould_be_login_and_will_see_Sign_out(RegistrationPageStepDefinition.java:125)\r\n\tat ✽.Then I shoould be login and will see Sign out(Register.feature:48)\r\n",
+  "status": "failed"
 });
