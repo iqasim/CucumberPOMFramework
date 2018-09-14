@@ -1,119 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="64.358917">
-<testcase classname="User Registration" name="Register to the site" time="28.617384">
-<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".passed
-Then I should see site logo.................................................passed
-When I click on SignIn button...............................................passed
-And Enter "qasimran123@gmail.com" for the signup............................passed
-And Click on create an account button.......................................passed
-Then I sould see application registration page..............................passed
-And I select "Mr."..........................................................passed
-And I enter "Abz"...........................................................passed
-And I enter "Abz"...........................................................passed
-And I enter "password"......................................................passed
-And I select "7"............................................................passed
-And I select "March"........................................................passed
-And I select "1980".........................................................passed
-Then I enter "68 AD"........................................................passed
-And I enter "Noida".........................................................passed
-And I select "Alaska".......................................................passed
-And I enter "12346".........................................................passed
-And I enter "9990017896"....................................................passed
-And I click on Register button..............................................pending
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="User Registration" name="Register to the site" time="0">
+<system-out><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".skipped
+Then I should see site logo.................................................skipped
+When I click on SignIn button...............................................skipped
+And Enter "qasimran123@gmail.com" for the signup............................skipped
+And Click on create an account button.......................................skipped
+Then I sould see application registration page..............................skipped
+And I select "Mr."..........................................................skipped
+And I enter_firstname "Abz".................................................skipped
+And I enter_lastname "Abz"..................................................skipped
+And I enter_password "password".............................................skipped
+And I select_day "7"........................................................skipped
+And I select_month "March"..................................................skipped
+And I select_year "1980"....................................................skipped
+Then I enter_address "68 AD"................................................skipped
+And I enter_city "Noida"....................................................skipped
+And I select_state "Alaska".................................................skipped
+And I enter_zip "12346".....................................................skipped
+And I enter_mobile "9990017896".............................................skipped
+And I click on Register button..............................................skipped
 Then I shoould be login and will see Sign out...............................skipped
-]]></failure>
+]]></system-out>
 </testcase>
-<testcase classname="User Registration" name="Register to the site 2" time="35.741533">
-<failure message="org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'IMRAN-PC', ip: '192.168.43.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61710}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Imran\AppData\Local\Temp\scoped_dir4280_863}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 1c4849d17316dbf9b6a24abfea05b143&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)&#13;&#10;&#9;at com.freecrm.qa.stepdefinitions.ServiceHooks.endTest(ServiceHooks.java:22)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;&#10;&#9;at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;&#10;&#9;at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;&#10;&#9;at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;&#10;&#9;at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)&#13;&#10;&#9;at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)&#13;&#10;&#9;at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)&#13;&#10;&#9;at com.freecrm.qa.testrunner.testrunner.feature(testrunner.java:34)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)&#13;&#10;&#9;at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;&#10;&#9;at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;&#10;&#9;at org.testng.TestRunner.privateRun(TestRunner.java:782)&#13;&#10;&#9;at org.testng.TestRunner.run(TestRunner.java:632)&#13;&#10;&#9;at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)&#13;&#10;&#9;at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)&#13;&#10;&#9;at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)&#13;&#10;&#9;at org.testng.SuiteRunner.run(SuiteRunner.java:268)&#13;&#10;&#9;at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;&#10;&#9;at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;&#10;&#9;at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)&#13;&#10;&#9;at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)&#13;&#10;&#9;at org.testng.TestNG.run(TestNG.java:1064)&#13;&#10;&#9;at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)&#13;&#10;&#9;at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;&#10;&#9;at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;&#10;Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die&#13;&#10;&#9;at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)&#13;&#10;&#9;at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)&#13;&#10;&#9;at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)&#13;&#10;&#9;at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)&#13;&#10;&#9;at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)&#13;&#10;&#9;at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;&#10;&#9;... 43 more&#13;&#10;Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die&#13;&#10;&#9;at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)&#13;&#10;&#9;at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:129)&#13;&#10;&#9;... 51 more&#13;&#10;Caused by: java.lang.InterruptedException&#13;&#10;&#9;at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)&#13;&#10;&#9;at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:154)&#13;&#10;&#9;at java.lang.Thread.run(Thread.java:748)&#13;&#10;"><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".passed
-Then I should see site logo.................................................passed
-When I click on SignIn button...............................................passed
-And Enter "qasimran114@gmail.com" for the signup............................passed
-And Click on create an account button.......................................passed
-Then I sould see application registration page..............................passed
-And I select "Mrs.".........................................................passed
-And I enter "Sab"...........................................................passed
-And I enter "Sab"...........................................................passed
-And I enter "password"......................................................passed
-And I select "16"...........................................................passed
-And I select "May"..........................................................passed
-And I select "1984".........................................................passed
-Then I enter "R196".........................................................passed
-And I enter "Delhi".........................................................passed
-And I select "Arizona"......................................................passed
-And I enter "65478".........................................................passed
-And I enter "9990016789"....................................................passed
-And I click on Register button..............................................pending
+<testcase classname="User Registration" name="Register to the site 2" time="0">
+<system-out><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".skipped
+Then I should see site logo.................................................skipped
+When I click on SignIn button...............................................skipped
+And Enter "qasimran114@gmail.com" for the signup............................skipped
+And Click on create an account button.......................................skipped
+Then I sould see application registration page..............................skipped
+And I select "Mrs.".........................................................skipped
+And I enter_firstname "Sab".................................................skipped
+And I enter_lastname "Sab"..................................................skipped
+And I enter_password "password".............................................skipped
+And I select_day "16".......................................................skipped
+And I select_month "May"....................................................skipped
+And I select_year "1984"....................................................skipped
+Then I enter_address "R196".................................................skipped
+And I enter_city "Delhi"....................................................skipped
+And I select_state "Arizona"................................................skipped
+And I enter_zip "65478".....................................................skipped
+And I enter_mobile "9990016789".............................................skipped
+And I click on Register button..............................................skipped
 Then I shoould be login and will see Sign out...............................skipped
-
-StackTrace:
-org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'IMRAN-PC', ip: '192.168.43.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61710}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Imran\AppData\Local\Temp\scoped_dir4280_863}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1c4849d17316dbf9b6a24abfea05b143
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
-	at com.freecrm.qa.stepdefinitions.ServiceHooks.endTest(ServiceHooks.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
-	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at com.freecrm.qa.testrunner.testrunner.feature(testrunner.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	... 43 more
-Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die
-	at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:129)
-	... 51 more
-Caused by: java.lang.InterruptedException
-	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
-	at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:154)
-	at java.lang.Thread.run(Thread.java:748)
-]]></failure>
+]]></system-out>
 </testcase>
 </testsuite>

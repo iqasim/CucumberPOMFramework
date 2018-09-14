@@ -33,17 +33,17 @@ Feature: User Registration
     And Click on create an account button
     Then I sould see application registration page
     And I select "<Gender>"
-    And I enter "<Firstname>"
-    And I enter "<Lastname>"
-    And I enter "<Password>"
-    And I select "<Day_of_DOB>"
-    And I select "<Month_of_DOB>"
-    And I select "<Year_of_DOB>"
-    Then I enter "<Address>"
-    And I enter "<City>"
-    And I select "<State>"
-    And I enter "<Zip_Postal_Code>"
-    And I enter "<Mobile_Number>"
+    And I enter_firstname "<Firstname>"
+    And I enter_lastname "<Lastname>"
+    And I enter_password "<Password>"
+    And I select_day "<Day_of_DOB>"
+    And I select_month "<Month_of_DOB>"
+    And I select_year "<Year_of_DOB>"
+    Then I enter_address "<Address>"
+    And I enter_city "<City>"
+    And I select_state "<State>"
+    And I enter_zip "<Zip_Postal_Code>"
+    And I enter_mobile "<Mobile_Number>"
     And I click on Register button
     Then I shoould be login and will see Sign out
 

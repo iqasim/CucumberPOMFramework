@@ -57,10 +57,72 @@ public class RegistrationPageStepDefinition extends TestBase{
 	    rp.selectGender(arg1);
 	}
 
-	@Then("^I enter \"([^\"]*)\"$")
-	public void i_enter(String arg1) throws Throwable {
-	    
+	@Then("^I enter_firstname \"([^\"]*)\"$")
+	public void i_enter_firstname(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
 	}
+
+	@Then("^I enter_lastname \"([^\"]*)\"$")
+	public void i_enter_lastname(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I enter_password \"([^\"]*)\"$")
+	public void i_enter_password(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I select_day \"([^\"]*)\"$")
+	public void i_select_day(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I select_month \"([^\"]*)\"$")
+	public void i_select_month(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I select_year \"([^\"]*)\"$")
+	public void i_select_year(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I enter_address \"([^\"]*)\"$")
+	public void i_enter_address(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I enter_city \"([^\"]*)\"$")
+	public void i_enter_city(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I select_state \"([^\"]*)\"$")
+	public void i_select_state(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I enter_zip \"([^\"]*)\"$")
+	public void i_enter_zip(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I enter_mobile \"([^\"]*)\"$")
+	public void i_enter_mobile(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+	
 
 	@Then("^I click on Register button$")
 	public void i_click_on_Register_button() throws Throwable {
