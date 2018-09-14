@@ -76,7 +76,7 @@ formatter.feature({
   ],
   "line": 20,
   "name": "User Registration",
-  "description": "As an end-user of the Automation Practice\nI want to register to the application\nIn order to use the application features.",
+  "description": "As an end-user of the Automation Practice\r\nI want to register to the application\r\nIn order to use the application features.",
   "id": "user-registration",
   "keyword": "Feature",
   "tags": [
@@ -257,7 +257,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4120257368,
+  "duration": 3608112212,
   "status": "passed"
 });
 formatter.background({
@@ -287,14 +287,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
 });
 formatter.result({
-  "duration": 9448190575,
+  "duration": 16111490992,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
 });
 formatter.result({
-  "duration": 39046241,
+  "duration": 67299698,
   "status": "passed"
 });
 formatter.scenario({
@@ -448,7 +448,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_SignIn_button()"
 });
 formatter.result({
-  "duration": 2532474400,
+  "duration": 3950879847,
   "status": "passed"
 });
 formatter.match({
@@ -461,21 +461,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.enter_for_the_signup(String)"
 });
 formatter.result({
-  "duration": 180834239,
+  "duration": 236703581,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.click_on_create_an_account_button()"
 });
 formatter.result({
-  "duration": 1623467702,
+  "duration": 2714857879,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_sould_see_application_registration_page()"
 });
 formatter.result({
-  "duration": 38544107,
+  "duration": 66156836,
   "status": "passed"
 });
 formatter.match({
@@ -488,7 +488,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 93203676,
+  "duration": 198737961,
   "status": "passed"
 });
 formatter.match({
@@ -501,7 +501,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 59075,
+  "duration": 101427,
   "status": "passed"
 });
 formatter.match({
@@ -514,7 +514,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 70562,
+  "duration": 91767,
   "status": "passed"
 });
 formatter.match({
@@ -527,7 +527,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 42665,
+  "duration": 61580,
   "status": "passed"
 });
 formatter.match({
@@ -540,7 +540,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 97613756,
+  "duration": 115052401,
   "status": "passed"
 });
 formatter.match({
@@ -553,7 +553,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 81524550,
+  "duration": 100338270,
   "status": "passed"
 });
 formatter.match({
@@ -566,7 +566,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 63430912,
+  "duration": 200712162,
   "status": "passed"
 });
 formatter.match({
@@ -579,7 +579,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 57433,
+  "duration": 65807,
   "status": "passed"
 });
 formatter.match({
@@ -592,7 +592,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 59895,
+  "duration": 68221,
   "status": "passed"
 });
 formatter.match({
@@ -605,7 +605,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 64378977,
+  "duration": 129705554,
   "status": "passed"
 });
 formatter.match({
@@ -618,7 +618,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 56203,
+  "duration": 67014,
   "status": "passed"
 });
 formatter.match({
@@ -631,14 +631,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 72613,
+  "duration": 83919,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_Register_button()"
 });
 formatter.result({
-  "duration": 1227439,
+  "duration": 1748405,
   "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.freecrm.qa.stepdefinitions.RegistrationPageStepDefinition.i_click_on_Register_button(RegistrationPageStepDefinition.java:68)\r\n\tat ✽.And I click on Register button(Register.feature:47)\r\n",
   "status": "pending"
 });
@@ -649,11 +649,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 2175016214,
+  "duration": 1115048778,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2878387199,
+  "duration": 2293604618,
   "status": "passed"
 });
 formatter.background({
@@ -683,14 +683,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
 });
 formatter.result({
-  "duration": 7929295532,
+  "duration": 15188554831,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
 });
 formatter.result({
-  "duration": 33610971,
+  "duration": 60700920,
   "status": "passed"
 });
 formatter.scenario({
@@ -844,7 +844,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_SignIn_button()"
 });
 formatter.result({
-  "duration": 2231071830,
+  "duration": 4081732490,
   "status": "passed"
 });
 formatter.match({
@@ -857,21 +857,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.enter_for_the_signup(String)"
 });
 formatter.result({
-  "duration": 193087291,
+  "duration": 239750007,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.click_on_create_an_account_button()"
 });
 formatter.result({
-  "duration": 1647191066,
+  "duration": 2198322594,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_sould_see_application_registration_page()"
 });
 formatter.result({
-  "duration": 39582425,
+  "duration": 65988999,
   "status": "passed"
 });
 formatter.match({
@@ -884,7 +884,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 112818895,
+  "duration": 173685542,
   "status": "passed"
 });
 formatter.match({
@@ -897,7 +897,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 56203,
+  "duration": 286773,
   "status": "passed"
 });
 formatter.match({
@@ -910,7 +910,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 59895,
+  "duration": 99012,
   "status": "passed"
 });
 formatter.match({
@@ -923,7 +923,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 56203,
+  "duration": 156971,
   "status": "passed"
 });
 formatter.match({
@@ -936,7 +936,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 72954225,
+  "duration": 110352356,
   "status": "passed"
 });
 formatter.match({
@@ -949,7 +949,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 65679438,
+  "duration": 99630094,
   "status": "passed"
 });
 formatter.match({
@@ -962,7 +962,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 66322694,
+  "duration": 221237202,
   "status": "passed"
 });
 formatter.match({
@@ -975,7 +975,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 43896,
+  "duration": 94785,
   "status": "passed"
 });
 formatter.match({
@@ -988,7 +988,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 32819,
+  "duration": 52525,
   "status": "passed"
 });
 formatter.match({
@@ -1001,7 +1001,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 64183292,
+  "duration": 99224990,
   "status": "passed"
 });
 formatter.match({
@@ -1014,7 +1014,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 45126,
+  "duration": 81503,
   "status": "passed"
 });
 formatter.match({
@@ -1027,14 +1027,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter(String)"
 });
 formatter.result({
-  "duration": 32409,
+  "duration": 1605924,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_Register_button()"
 });
 formatter.result({
-  "duration": 140712,
+  "duration": 258397,
   "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.freecrm.qa.stepdefinitions.RegistrationPageStepDefinition.i_click_on_Register_button(RegistrationPageStepDefinition.java:68)\r\n\tat ✽.And I click on Register button(Register.feature:47)\r\n",
   "status": "pending"
 });
@@ -1045,7 +1045,8 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 2042247755,
-  "status": "passed"
+  "duration": 10906111991,
+  "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027IMRAN-PC\u0027, ip: \u0027192.168.43.153\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61710}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir\u003dC:\\Users\\Imran\\AppData\\Local\\Temp\\scoped_dir4280_863}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d68.0.3440.106, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 1c4849d17316dbf9b6a24abfea05b143\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)\r\n\tat com.freecrm.qa.stepdefinitions.ServiceHooks.endTest(ServiceHooks.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat com.freecrm.qa.testrunner.testrunner.feature(testrunner.java:34)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\nCaused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn\u0027t taskkill it: Timeout waiting for process to die\r\n\tat org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)\r\n\tat org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)\r\n\tat org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)\r\n\tat org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)\r\n\tat org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)\r\n\tat org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)\r\n\tat org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\t... 43 more\r\nCaused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die\r\n\tat org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)\r\n\tat org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:129)\r\n\t... 51 more\r\nCaused by: java.lang.InterruptedException\r\n\tat java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)\r\n\tat org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:154)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+  "status": "failed"
 });
 });

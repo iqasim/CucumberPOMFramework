@@ -68,14 +68,14 @@ public class RegistrationPage extends TestBase
 	{
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("arguments[0].scrollIntoView()", headingCreateAnAccount);	
-				
-		if (Gender.equals("Mr."))
+		Male.click();
+		/*if (Gender.equals("Mr."))
 		{
 			Male.click();
 		}else
 		{
 			Female.click();
-		}
+		}*/
 	}
 	
 	public boolean validateHeadingPersonalInformation()
