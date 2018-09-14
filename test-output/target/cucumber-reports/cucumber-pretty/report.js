@@ -257,7 +257,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5467389119,
+  "duration": 5400631083,
   "status": "passed"
 });
 formatter.background({
@@ -287,14 +287,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
 });
 formatter.result({
-  "duration": 13283361789,
+  "duration": 7856514751,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
 });
 formatter.result({
-  "duration": 40190523,
+  "duration": 51955644,
   "status": "passed"
 });
 formatter.scenario({
@@ -448,7 +448,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_SignIn_button()"
 });
 formatter.result({
-  "duration": 4066894230,
+  "duration": 1982417133,
   "status": "passed"
 });
 formatter.match({
@@ -461,21 +461,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.enter_for_the_signup(String)"
 });
 formatter.result({
-  "duration": 190796787,
+  "duration": 137468957,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.click_on_create_an_account_button()"
 });
 formatter.result({
-  "duration": 1588004171,
+  "duration": 1608582877,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_sould_see_application_registration_page()"
 });
 formatter.result({
-  "duration": 54005105,
+  "duration": 45255924,
   "status": "passed"
 });
 formatter.match({
@@ -488,7 +488,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select(String)"
 });
 formatter.result({
-  "duration": 113442758,
+  "duration": 104323969,
   "status": "passed"
 });
 formatter.match({
@@ -501,7 +501,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_firstname(String)"
 });
 formatter.result({
-  "duration": 152286117,
+  "duration": 144548950,
   "status": "passed"
 });
 formatter.match({
@@ -514,7 +514,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_lastname(String)"
 });
 formatter.result({
-  "duration": 121367806,
+  "duration": 142090910,
   "status": "passed"
 });
 formatter.match({
@@ -527,7 +527,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_password(String)"
 });
 formatter.result({
-  "duration": 227481976,
+  "duration": 235516963,
   "status": "passed"
 });
 formatter.match({
@@ -540,7 +540,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_day(String)"
 });
 formatter.result({
-  "duration": 113391891,
+  "duration": 162970308,
   "status": "passed"
 });
 formatter.match({
@@ -553,7 +553,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_month(String)"
 });
 formatter.result({
-  "duration": 100945393,
+  "duration": 128008454,
   "status": "passed"
 });
 formatter.match({
@@ -566,7 +566,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_year(String)"
 });
 formatter.result({
-  "duration": 89592544,
+  "duration": 106538749,
   "status": "passed"
 });
 formatter.match({
@@ -579,7 +579,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_address(String)"
 });
 formatter.result({
-  "duration": 206438901,
+  "duration": 211757819,
   "status": "passed"
 });
 formatter.match({
@@ -592,7 +592,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_city(String)"
 });
 formatter.result({
-  "duration": 142697215,
+  "duration": 187259047,
   "status": "passed"
 });
 formatter.match({
@@ -605,7 +605,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_select_state(String)"
 });
 formatter.result({
-  "duration": 92676171,
+  "duration": 121131519,
   "status": "passed"
 });
 formatter.match({
@@ -618,7 +618,7 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_zip(String)"
 });
 formatter.result({
-  "duration": 69718187,
+  "duration": 110416152,
   "status": "passed"
 });
 formatter.match({
@@ -631,21 +631,21 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_enter_mobile(String)"
 });
 formatter.result({
-  "duration": 163318585,
+  "duration": 198308744,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_click_on_Register_button()"
 });
 formatter.result({
-  "duration": 1312124802,
+  "duration": 1321416294,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_shoould_be_login_and_will_see_Sign_out()"
 });
 formatter.result({
-  "duration": 4324824405,
+  "duration": 3516492911,
   "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat com.freecrm.qa.pages.PostLoginPage.validateSignOutLink(PostLoginPage.java:22)\r\n\tat com.freecrm.qa.stepdefinitions.RegistrationPageStepDefinition.i_shoould_be_login_and_will_see_Sign_out(RegistrationPageStepDefinition.java:125)\r\n\tat ✽.Then I shoould be login and will see Sign out(Register.feature:48)\r\n",
   "status": "failed"
 });
