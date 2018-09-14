@@ -9,9 +9,14 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"}) 
-/*plugin={"pretty", "html:test-output/target/cucumber-reports/cucumber-pretty", "json:test-output/target/cucumber-reports/CucumberTestReport.json"
-		+ "rerun:test-output/target/cucumber-reports/rerun.txt"})*/
+//dryRun = true checks the mapping of feature and step definition
+//dryRun = false should be to execute the test cases
+//monochrome = true generates the console output in a readable format
+//strict = true failed the execution if any step is undefined in step definition
+
+@CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"},
+plugin={"pretty", "html:test-output/target/cucumber-reports/cucumber-pretty", "json:json-output/target/cucumber-reports/CucumberTestReport.json",
+		"junit:junit_xml/cucumber-reports/cucumber.xml"}, dryRun = false, monochrome = true, strict = true)
 
 public class testrunner {
 	

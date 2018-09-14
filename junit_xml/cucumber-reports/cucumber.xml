@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="37.936529">
+<testcase classname="User Registration" name="Register to the site" time="20.559629">
+<skipped><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".passed
+Then I should see site logo.................................................passed
+When I click on SignIn button...............................................passed
+And Enter "qasimran123@gmail.com" for the signup............................passed
+And Click on create an account button.......................................passed
+Then I sould see application registration page..............................passed
+And I select "Mr."..........................................................passed
+And I enter "Abz"...........................................................passed
+And I enter "Abz"...........................................................passed
+And I enter "password"......................................................passed
+And I select "7"............................................................passed
+And I select "March"........................................................passed
+And I select "1980".........................................................passed
+Then I enter "68 AD"........................................................passed
+And I enter "Noida".........................................................passed
+And I select "Alaska".......................................................passed
+And I enter "12346".........................................................passed
+And I enter "9990017896"....................................................passed
+And I click on Register button..............................................pending
+Then I shoould be login and will see Sign out...............................skipped
+]]></skipped>
+</testcase>
+<testcase classname="User Registration" name="Register to the site 2" time="17.3769">
+<skipped><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".passed
+Then I should see site logo.................................................passed
+When I click on SignIn button...............................................passed
+And Enter "qasimran114@gmail.com" for the signup............................passed
+And Click on create an account button.......................................passed
+Then I sould see application registration page..............................passed
+And I select "Mrs.".........................................................passed
+And I enter "Sab"...........................................................passed
+And I enter "Sab"...........................................................passed
+And I enter "password"......................................................passed
+And I select "16"...........................................................passed
+And I select "May"..........................................................passed
+And I select "1984".........................................................passed
+Then I enter "R196".........................................................passed
+And I enter "Delhi".........................................................passed
+And I select "Arizona"......................................................passed
+And I enter "65478".........................................................passed
+And I enter "9990016789"....................................................passed
+And I click on Register button..............................................pending
+Then I shoould be login and will see Sign out...............................skipped
+]]></skipped>
+</testcase>
+</testsuite>
