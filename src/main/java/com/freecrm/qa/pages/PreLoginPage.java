@@ -1,22 +1,39 @@
 package com.freecrm.qa.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import com.freecrm.qa.base.TestBase;
+import com.freecrm.qa.helper.Utilities;
+
+import cucumber.api.DataTable;
 
 public class PreLoginPage extends TestBase 
 {
 	
 	@FindBy(xpath="//a[@class='login']")
-	WebElement SignInButton;
+	WebElement signInLink;
 	
 	@FindBy(xpath="//img[@class='logo img-responsive']")
 	WebElement siteLogo;
 	
-	public PreLoginPage()
+	@FindBy(xpath="//label[contains(text(),'Email address')]//parent::div[@class='form-group form-ok']")
+	WebElement emailAddressLabel;
+	
+	@FindBy(xpath="//input[@id='email']")
+	WebElement emailAddressField;
+	
+	@FindBy(xpath="//input[@id='passwd']")
+	WebElement passwordField;
+	
+	@FindBy(xpath="//button[@id = 'SubmitLogin']")
+	WebElement signInButton;
+	
+		public PreLoginPage()
 	{
 		PageFactory.initElements(driver, this);
 	}
@@ -27,11 +44,33 @@ public class PreLoginPage extends TestBase
 		return logoState;
 	}
 	
-	
-	public AuthenticationPage ClickOnSignInBtn()
+	public AuthenticationPage ClickOnSignInBtnNewUser()
 	{
-		SignInButton.click();
+		signInLink.click();
 		return new AuthenticationPage();
 	}
+	
+	public PostLoginPage ClickOnSignInBtn()
+	{
+		signInLink.click();
+		return new PostLoginPage();
+	}
+	
+	public void enterUserNameandPassword(DataTable loginCred)
+	{
+		List<List<String>> dataValues = loginCred.raw();
+		Utilities.scrollToElement(emailAddressField);
+		emailAddressField.clear();
+		emailAddressField.sendKeys(dataValues.get(0).get(0));
+		passwordField.clear();
+		passwordField.sendKeys(dataValues.get(0).get(1));
+	}
+	
+	public PostLoginPage clickonSubmitButton()
+	{
+		signInButton.click();
+		return new PostLoginPage();
+	}
+	
 
 }

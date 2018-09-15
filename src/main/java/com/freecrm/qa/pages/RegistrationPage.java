@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.freecrm.qa.base.TestBase;
+import com.freecrm.qa.helper.Utilities;
 
 public class RegistrationPage extends TestBase
 {
@@ -66,8 +67,9 @@ public class RegistrationPage extends TestBase
 	
 	public void selectGender(String Gender)
 	{
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("arguments[0].scrollIntoView()", headingCreateAnAccount);	
+		/*JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].scrollIntoView()", headingCreateAnAccount);	*/
+		Utilities.scrollToElement(headingCreateAnAccount);		
 		Male.click();
 		/*if (Gender.equals("Mr."))
 		{
@@ -153,9 +155,9 @@ public class RegistrationPage extends TestBase
 	
 	public void enterMobileNumber(String Mobile_Number)
 	{
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("arguments[0].scrollIntoView()", registerButton);
-		
+		/*JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].scrollIntoView()", registerButton);*/
+		Utilities.scrollToElement(registerButton);
 		mobile.clear();
 		mobile.sendKeys(Mobile_Number);
 	}

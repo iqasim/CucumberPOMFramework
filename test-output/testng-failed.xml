@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]">
+  <test name="Regression Test">
     <classes>
       <class name="com.freecrm.qa.testrunner.testrunner"/>
     </classes>
-  </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.freecrm.qa.testrunner.testrunner">
-        <methods>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.freecrm.qa.testrunner.testrunner -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Regression Test -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

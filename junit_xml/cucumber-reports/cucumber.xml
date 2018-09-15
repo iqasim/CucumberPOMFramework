@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.8828">
+<testcase classname="Login to the automation practice site" name="Login with valid credential using data table" time="28.8828">
+<system-out><![CDATA[Given I am on the Pre-Login page URL "http://automationpractice.com/index.php".passed
+Then I should see site logo.................................................passed
+When I click on Sign in link................................................passed
+And I enters the username and password......................................passed
+Then I will be on home page and I will see the Sign Out link................passed
+]]></system-out>
+</testcase>
+</testsuite>

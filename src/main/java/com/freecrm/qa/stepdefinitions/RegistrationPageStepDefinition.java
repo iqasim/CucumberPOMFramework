@@ -34,7 +34,7 @@ public class RegistrationPageStepDefinition extends TestBase{
 
 	@When("^I click on SignIn button$")
 	public void i_click_on_SignIn_button() {
-	    pl.ClickOnSignInBtn();
+	    pl.ClickOnSignInBtnNewUser();
 	    Assert.assertTrue(ap.validateEmailId(), "Email Id field is not displayed.");
 	}
 
