@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="BDD Test Suite" duration-ms="29417" started-at="2018-09-15T10:19:29Z" finished-at="2018-09-15T10:19:58Z">
+  <suite name="Default suite" duration-ms="58541" started-at="2018-09-17T13:13:06Z" finished-at="2018-09-17T13:14:05Z">
     <groups>
       <group name="cucumber">
         <method signature="testrunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="feature" class="com.freecrm.qa.testrunner.testrunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Regression Test" duration-ms="29417" started-at="2018-09-15T10:19:29Z" finished-at="2018-09-15T10:19:58Z">
+    <test name="Default test" duration-ms="58541" started-at="2018-09-17T13:13:06Z" finished-at="2018-09-17T13:14:05Z">
       <class name="com.freecrm.qa.testrunner.testrunner">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="setUp" is-config="true" duration-ms="221" started-at="2018-09-15T15:49:29Z" finished-at="2018-09-15T15:49:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="setUp" is-config="true" duration-ms="204" started-at="2018-09-17T18:43:06Z" finished-at="2018-09-17T18:43:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="feature" duration-ms="29017" started-at="2018-09-15T15:49:29Z" description="Runs Cucumber Features" data-provider="features" finished-at="2018-09-15T15:49:58Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="feature" duration-ms="58144" started-at="2018-09-17T18:43:06Z" description="Runs Cucumber Features" data-provider="features" finished-at="2018-09-17T18:44:04Z">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="teardown" is-config="true" duration-ms="91" started-at="2018-09-15T15:49:58Z" finished-at="2018-09-15T15:49:58Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="teardown" is-config="true" duration-ms="115" started-at="2018-09-17T18:44:04Z" finished-at="2018-09-17T18:44:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.freecrm.qa.testrunner.testrunner -->
-    </test> <!-- Regression Test -->
-  </suite> <!-- BDD Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -15,7 +15,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 //strict = true failed the execution if any step is undefined in step definition
 
 
-@CucumberOptions(features = "Resources/features", glue={"com/freecrm/qa/stepdefinitions"},
+@CucumberOptions(features = "Resources/features/LoginMap.feature", glue={"com/freecrm/qa/stepdefinitions"},
 plugin={"pretty", "html:test-output/target/cucumber-reports/cucumber-pretty", "json:json-output/target/cucumber-reports/CucumberTestReport.json",
 		"junit:junit_xml/cucumber-reports/cucumber.xml"}, dryRun = false, monochrome = true, strict = true)
 

@@ -1,6 +1,7 @@
 package com.freecrm.qa.pages;
 
 import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -65,6 +66,20 @@ public class PreLoginPage extends TestBase
 		passwordField.clear();
 		passwordField.sendKeys(dataValues.get(0).get(1));
 	}
+	
+	public void enterUserNameandPasswordMap(DataTable loginCred)
+	{
+		for(Map<String, String> data: loginCred.asMaps(String.class, String.class))
+		{
+		Utilities.scrollToElement(emailAddressField);
+		emailAddressField.clear();
+		emailAddressField.sendKeys(data.get("username"));
+		passwordField.clear();
+		passwordField.sendKeys(data.get("password"));
+		}
+	}
+	
+	
 	
 	public PostLoginPage clickonSubmitButton()
 	{

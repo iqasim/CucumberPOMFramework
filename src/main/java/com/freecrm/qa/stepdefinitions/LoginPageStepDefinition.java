@@ -13,12 +13,12 @@ public class LoginPageStepDefinition extends TestBase {
 	PreLoginPage preLoginPage = new PreLoginPage();
 	PostLoginPage postLoginPage = new PostLoginPage();
 	
-	@When("^I click on Sign in link$")
+	@When("^I click on Signin link$")
 	public void i_click_on_Sign_in_link(){
 		preLoginPage.ClickOnSignInBtn();
 	}
 
-	@When("^I enters the username and password$")
+	@When("^I enters username and password$")
 	public void i_enters_the_username_and_password(DataTable loginData){
 		preLoginPage.enterUserNameandPassword(loginData);	    
 	}

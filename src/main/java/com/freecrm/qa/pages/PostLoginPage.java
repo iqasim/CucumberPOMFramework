@@ -21,5 +21,11 @@ public class PostLoginPage extends TestBase {
 	{
 		return signOutLink.isDisplayed();
 	}
+	
+	public PreLoginPage clickOnSignOutLink()
+	{
+		signOutLink.click();
+		return new PreLoginPage();
+	}
 
 }

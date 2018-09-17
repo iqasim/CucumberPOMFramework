@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Resources/features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Resources/features/LoginMap.feature");
 formatter.feature({
   "line": 1,
   "name": "Login to the automation practice site",
@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 7961390056,
+  "duration": 5871455388,
   "status": "passed"
 });
 formatter.background({
@@ -37,14 +37,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
 });
 formatter.result({
-  "duration": 11026170420,
+  "duration": 8287001675,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
 });
 formatter.result({
-  "duration": 59637431,
+  "duration": 44677103,
   "status": "passed"
 });
 formatter.scenario({
@@ -57,7 +57,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 8,
-  "name": "I click on Sign in link",
+  "name": "I click on Signin link",
   "keyword": "When "
 });
 formatter.step({
@@ -66,42 +66,68 @@ formatter.step({
   "rows": [
     {
       "cells": [
-        "qasimran1@gmail.com",
+        "username",
         "password"
       ],
       "line": 10
+    },
+    {
+      "cells": [
+        "qasimran1@gmail.com",
+        "password"
+      ],
+      "line": 11
+    },
+    {
+      "cells": [
+        "qasimran1@gmail.com",
+        "password"
+      ],
+      "line": 12
     }
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
-  "name": "I will be on home page and I will see the Sign Out link",
+  "line": 13,
+  "name": "I will be on home page and will see the Sign Out link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "I click on the Sign out link",
   "keyword": "Then "
 });
 formatter.match({
   "location": "LoginPageStepDefinition.i_click_on_Sign_in_link()"
 });
 formatter.result({
-  "duration": 3129165276,
+  "duration": 2269126320,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginPageStepDefinition.i_enters_the_username_and_password(DataTable)"
+  "location": "LoginMapStepDefinition.i_enters_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 319851713,
+  "duration": 766517729,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginPageStepDefinition.i_will_be_on_home_page_and_I_will_see_the_Sign_Out_link()"
+  "location": "LoginMapStepDefinition.i_will_be_on_home_page_and_will_see_the_Sign_Out_link()"
 });
 formatter.result({
-  "duration": 2231289232,
+  "duration": 34748691192,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginMapStepDefinition.i_click_on_the_Sign_out_link()"
+});
+formatter.result({
+  "duration": 2195482735,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4155295494,
+  "duration": 3797773242,
   "status": "passed"
 });
 });
