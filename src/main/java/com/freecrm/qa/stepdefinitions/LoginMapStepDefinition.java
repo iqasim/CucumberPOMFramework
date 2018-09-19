@@ -15,12 +15,17 @@ public class LoginMapStepDefinition extends TestBase {
 	
 	@When("^I click on Sign in link$")
 	public void i_click_on_Signin_link(){
-		preLoginPage.ClickOnSignInBtn();
+		preLoginPage.ClickOnSignInLink();
 	}
 
-	@When("^I enters the username and password$")
-	public void i_enters_username_and_password(DataTable loginData){
+	@When("^I enters the username and password from Datatable Map$")
+	public void I_enters_the_username_and_password_from_Datatable_Map(DataTable loginData){
 		preLoginPage.enterUserNameandPasswordMap(loginData);    
+	}
+	
+	@When("^I Click on Sign In button$")
+	public void i_Click_on_Sign_In_button() {
+	    preLoginPage.ClickOnSignInBtn();
 	}
 
 	@Then("^I will be on home page and will see the Sign Out link$")

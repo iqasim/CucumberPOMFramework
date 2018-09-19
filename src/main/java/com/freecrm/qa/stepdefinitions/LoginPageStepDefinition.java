@@ -14,8 +14,8 @@ public class LoginPageStepDefinition extends TestBase {
 	PostLoginPage postLoginPage = new PostLoginPage();
 	
 	@When("^I click on Signin link$")
-	public void i_click_on_Sign_in_link(){
-		preLoginPage.ClickOnSignInBtn();
+	public void i_clicks_on_Sign_in_link_new_user(){
+		preLoginPage.ClickOnSignInLinkNewUser();
 	}
 
 	@When("^I enters username and password$")

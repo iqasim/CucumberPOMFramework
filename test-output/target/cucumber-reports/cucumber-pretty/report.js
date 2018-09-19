@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5871455388,
+  "duration": 4246427755,
   "status": "passed"
 });
 formatter.background({
@@ -37,14 +37,14 @@ formatter.match({
   "location": "RegistrationPageStepDefinition.i_am_on_the_Pre_Login_page_URL(String)"
 });
 formatter.result({
-  "duration": 8287001675,
+  "duration": 12816385827,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageStepDefinition.i_should_see_site_logo()"
 });
 formatter.result({
-  "duration": 44677103,
+  "duration": 51705813,
   "status": "passed"
 });
 formatter.scenario({
@@ -62,7 +62,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I enters the username and password",
+  "name": "I enters the username and password from Datatable Map",
   "rows": [
     {
       "cells": [
@@ -80,7 +80,7 @@ formatter.step({
     },
     {
       "cells": [
-        "qasimran1@gmail.com",
+        "qasimran2@gmail.com",
         "password"
       ],
       "line": 12
@@ -90,44 +90,56 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
+  "name": "I Click on Sign In button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
   "name": "I will be on home page and will see the Sign Out link",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 14,
+  "line": 15,
   "name": "I click on the Sign out link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginPageStepDefinition.i_click_on_Sign_in_link()"
+  "location": "LoginPageStepDefinition.i_clicks_on_Sign_in_link_new_user()"
 });
 formatter.result({
-  "duration": 2269126320,
+  "duration": 3232364805,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginMapStepDefinition.i_enters_username_and_password(DataTable)"
+  "location": "LoginMapStepDefinition.I_enters_the_username_and_password_from_Datatable_Map(DataTable)"
 });
 formatter.result({
-  "duration": 766517729,
+  "duration": 641596995,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginMapStepDefinition.i_Click_on_Sign_In_button()"
+});
+formatter.result({
+  "duration": 3074059185,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginMapStepDefinition.i_will_be_on_home_page_and_will_see_the_Sign_Out_link()"
 });
 formatter.result({
-  "duration": 34748691192,
+  "duration": 39664396,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginMapStepDefinition.i_click_on_the_Sign_out_link()"
 });
 formatter.result({
-  "duration": 2195482735,
+  "duration": 2886316620,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3797773242,
+  "duration": 2137371998,
   "status": "passed"
 });
 });

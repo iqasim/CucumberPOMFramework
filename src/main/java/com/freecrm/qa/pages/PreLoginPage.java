@@ -16,7 +16,7 @@ import cucumber.api.DataTable;
 public class PreLoginPage extends TestBase 
 {
 	
-	@FindBy(xpath="//a[@class='login']")
+	@FindBy(xpath="//a[@title='Log in to your customer account']")
 	WebElement signInLink;
 	
 	@FindBy(xpath="//img[@class='logo img-responsive']")
@@ -45,7 +45,12 @@ public class PreLoginPage extends TestBase
 		return logoState;
 	}
 	
-	public AuthenticationPage ClickOnSignInBtnNewUser()
+	public void ClickOnSignInLink()
+	{
+		signInLink.click();
+	}
+	
+	public AuthenticationPage ClickOnSignInLinkNewUser()
 	{
 		signInLink.click();
 		return new AuthenticationPage();
@@ -53,7 +58,7 @@ public class PreLoginPage extends TestBase
 	
 	public PostLoginPage ClickOnSignInBtn()
 	{
-		signInLink.click();
+		signInButton.click();
 		return new PostLoginPage();
 	}
 	

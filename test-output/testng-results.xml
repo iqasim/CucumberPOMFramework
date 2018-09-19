@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58541" started-at="2018-09-17T13:13:06Z" finished-at="2018-09-17T13:14:05Z">
+  <suite name="Default suite" duration-ms="29641" started-at="2018-09-19T03:05:58Z" finished-at="2018-09-19T03:06:28Z">
     <groups>
       <group name="cucumber">
         <method signature="testrunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="feature" class="com.freecrm.qa.testrunner.testrunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="58541" started-at="2018-09-17T13:13:06Z" finished-at="2018-09-17T13:14:05Z">
+    <test name="Default test" duration-ms="29641" started-at="2018-09-19T03:05:58Z" finished-at="2018-09-19T03:06:28Z">
       <class name="com.freecrm.qa.testrunner.testrunner">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="setUp" is-config="true" duration-ms="204" started-at="2018-09-17T18:43:06Z" finished-at="2018-09-17T18:43:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="setUp" is-config="true" duration-ms="198" started-at="2018-09-19T08:35:58Z" finished-at="2018-09-19T08:35:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="feature" duration-ms="58144" started-at="2018-09-17T18:43:06Z" description="Runs Cucumber Features" data-provider="features" finished-at="2018-09-17T18:44:04Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="feature" duration-ms="29256" started-at="2018-09-19T08:35:58Z" description="Runs Cucumber Features" data-provider="features" finished-at="2018-09-19T08:36:28Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="teardown" is-config="true" duration-ms="115" started-at="2018-09-17T18:44:04Z" finished-at="2018-09-17T18:44:05Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testrunner.testrunner@4cf777e8]" name="teardown" is-config="true" duration-ms="92" started-at="2018-09-19T08:36:28Z" finished-at="2018-09-19T08:36:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -23,7 +23,7 @@ public class RegistrationPageStepDefinition extends TestBase{
 	PostLoginPage postLoginPage = new PostLoginPage();
 	
 	@Given("^I am on the Pre-Login page URL \"([^\"]*)\"$")
-	public void i_am_on_the_Pre_Login_page_URL(String arg1) throws Throwable {
+	public void i_am_on_the_Pre_Login_page_URL(String arg1){
 	    driver.get(arg1);
 	}
 
@@ -32,9 +32,9 @@ public class RegistrationPageStepDefinition extends TestBase{
 	  Assert.assertTrue(pl.validateSiteLogo(), "Site logo is not displayed."); 
 	}
 
-	@When("^I click on SignIn button$")
-	public void i_click_on_SignIn_button() {
-	    pl.ClickOnSignInBtnNewUser();
+	@When("^I click on SignIn Link$")
+	public void i_click_on_SignIn_Link() {
+	    pl.ClickOnSignInLinkNewUser();
 	    Assert.assertTrue(ap.validateEmailId(), "Email Id field is not displayed.");
 	}
 
